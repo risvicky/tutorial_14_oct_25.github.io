@@ -1,7 +1,7 @@
 # GROMACS Tutorial: Introduction
 This tutorial page is for the Introduction to Molecular Dynamics using GROMACS.
 
-Session: Tuesday, 14th of October 2024, 14:30 - 15:50
+Session: Tuesday, 14th of October 2024, 14:30 - 16:00
 
 Location: TG213, Thomas Graham Building, University of Strathclyde
 
