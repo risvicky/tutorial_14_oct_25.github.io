@@ -38,3 +38,10 @@ Description of the time evolution of chemical systems by propagation the Newton'
 - Periodic Boundary Conditions (PBC)
 ![alt text](./../figure/pbc.png "Periodic Boundary Conditions")
 
+- Ensembles
+    - Microcanonical Ensemble (NVE)
+    - Canonical Ensemble (NVT)
+    - Isothermal-Isobaric Ensemble (NPT)
+
+- Radial Distribution Function (RDF)
+
