@@ -15,9 +15,8 @@ The main goal of computer-aided methods in chemistry and material design is to o
 - Ability to simulate conditions that are difficult to achieve experimentally
 
 #### Energy and Forces
-When we perform a simulation of a chemical system, we are interested in the energy and forces acting on the atoms.
+When we perform a simulation of a chemical system, we are interested in the energy and forces acting on the atoms. The energy of a system is a function of the positions of all atoms in the system. 
 
-The energy of a system is a function of the positions of all atoms in the system. 
 The forces acting on each atom are related to the energy by the following equation:
 
 $$ F_i = - \frac{\partial E}{\partial r_i} $$
@@ -48,8 +47,7 @@ The main idea of MM is to describe molecular interactions via empirical, paramet
 
 MM estimates the potential energy of the system by ignoring the electronic motion and considering the positions of nuclei. 
 
-It models atoms as spheres and bonds as springs, and the potential energy of the system is calculated based on the bond stretching, angle bending, dihedral angle interaction, and non-bonded contributions between the
-atoms in the system. 
+It models atoms as spheres and bonds as springs, and the potential energy of the system is calculated based on the bond stretching, angle bending, dihedral angle interaction, and non-bonded contributions between the atoms in the system. 
 
 Hooke’s law is typically used to define bond stretching and angle bending. The typical form of FFs (i.e., functional form) to describe the intra- and intermolecular potential energy function of a collection of atoms in the system can be expressed as:
 
@@ -71,19 +69,12 @@ Description of the time evolution of chemical systems by propagation the Newton'
 
 
 
-
-
-
-
 #### Periodic Boundary Conditions (PBC)
 In MD simulation, systems are treated as if they were surrounded by their identical copies in all directions.
 ![Periodic Boundary Condition](/figure/pbc_1.png){: width="500" height="auto" .center}
 
 
-A representation of a three-dimensional periodic system. The simulation box is represented
-by a cubic box of length *L*. The cubic box is surrounded by its identical copies. **A** particle, marked in
-green within the central box, can exit the box through the surface of the box. Upon leaving, its periodic
-image will reappear, entering from the opposite side.
+A representation of a three-dimensional periodic system. The simulation box is represented by a cubic box of length *L*. The cubic box is surrounded by its identical copies. **A** particle, marked in green within the central box, can exit the box through the surface of the box. Upon leaving, its periodic image will reappear, entering from the opposite side.
 
 This approach also considers the **minimum image convention**, which means that each particle only interacts with the nearest image of every other particle (either the original particle or one of its periodic images).
 
@@ -96,11 +87,9 @@ Different types of ensembles can describe the system in molecular dynamics, incl
 
 Microcanonical Ensemble (NVE) describes a system where the number of particles, volume, and energy are constant, representing an isolated system without the exchange of particles or energy with its surroundings.
 
-Canonical Ensemble (NVT) applies to a system maintaining
-constant numbers of particles, volume, and temperature. It acts as a closed system in thermal equilibrium with a heat bath at a constant temperature *T*, allowing for energy
-exchange.
+Canonical Ensemble (NVT) applies to a system maintaining constant numbers of particles, volume, and temperature. It acts as a closed system in thermal equilibrium with a heat bath at a constant temperature *T*, allowing for energy exchange.
 
-Isothermal-Isobaric Ensemble (NPT) defines a system with a constant number of particles, pressure, and temperature. It depicts the system in contact with a heat bath at constant temperature *T* and pressure *P*, capable of exchanging energy and volume with the system. At thermal equilibrium, the total energy *E* and volume *V* fluctuate, whereas the number of particles *N* remains constant.
+Isothermal-Isobaric Ensemble (NPT) defines a system with a constant number of particles, pressure and temperature. It depicts the system in contact with a heat bath at constant temperature *T* and pressure *P*, capable of exchanging energy and volume with the system. At thermal equilibrium, the total energy *E* and volume *V* fluctuate, whereas the number of particles *N* remains constant.
 
 #### Radial Distribution Function (RDF)
 
