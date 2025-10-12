@@ -31,9 +31,8 @@ Difference of Molecular Mechanics and Quantum Mechanics
 
 
 #### Force Fields
-<p align="center">
-<img src=/figure/FFs.png>
-</p>
+![Force Field](/figure/FFs.png)
+
 
 
 #### Periodic Boundary Conditions (PBC)
