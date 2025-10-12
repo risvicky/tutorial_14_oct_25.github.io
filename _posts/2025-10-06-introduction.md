@@ -16,32 +16,37 @@ The main goal of computer-aided methods in chemistry and material design is to o
 
 ##### Molecular Dynamics (MD) Simulations
 Description of the time evolution of chemical systems by propagation the Newton's equations of motion. 
-![alt text](/figure/loop.png "MD loop")
-![alt text](/figure/integration.png "MD loop")
+<img src=/figure/loop.png width="400" height="400">
+<img src=/figure/integration.png width="400" height="400">
 
-- Energy and Forces
+
+
+#### Energy and Forces
     - Difference of Molecular Mechanics and Quantum Mechanics
 
-- Bonded and Non-bonded Interactions
+#### Bonded and Non-bonded Interactions
 
 
 
-- Force Fields
+#### Force Fields
 <p align="center">
-<img src=/figure/FFs.png width="400" height="400" alt="Force field is consisted of bonded and non-bonded interactions.">
+<img src=/figure/FFs.png>
 </p>
 
 
-- Periodic Boundary Conditions (PBC)
+#### Periodic Boundary Conditions (PBC)
 In MD simulation, systems are treated as if they were surrounded by their identical copies in all directions.
 <p align="center">
-<img src="/figure/pbc_1.png" width="500" height="500" alt="If particle A leaves the original box to the right, its corresponding periodic image re-enters through the opposite face.">
+<img src="/figure/pbc_1.png" width="500" height="500"
 </p>
 
-- Ensembles
+If particle A leaves the original box to the right, its corresponding periodic image re-enters through the opposite face.
+
+
+#### Ensembles
     - Microcanonical Ensemble (NVE)
     - Canonical Ensemble (NVT)
     - Isothermal-Isobaric Ensemble (NPT)
 
-- Radial Distribution Function (RDF)
+#### Radial Distribution Function (RDF)
 
