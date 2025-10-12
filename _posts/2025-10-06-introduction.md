@@ -19,6 +19,10 @@ Description of the time evolution of chemical systems by propagation the Newton'
 ![MD simulation workflow](/figure/loop.png){: width="600" height="auto" .center}
 ![Integration of Newton's equations of motion](/figure/integration.png){: width="300" height="auto" .center}
 
+| ![MD simulation workflow](/figure/loop1.png){: width="600" height="auto" .left} | ![Integration of Newton's equations of motion](/figure/integration.png){: : width="300" height="auto" .right} |
+|:--:|:--:|
+| MD simulation workflow | Integration of Newton's equations of motion |
+
 #### Energy and Forces
 Difference of Molecular Mechanics and Quantum Mechanics
 
