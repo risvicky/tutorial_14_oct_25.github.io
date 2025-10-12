@@ -27,16 +27,16 @@ Description of the time evolution of chemical systems by propagation the Newton'
 
 
 - Force Fields
-![alt text](/figure/FFs.png "Force Fields")
-
+<p align="center">
+<img src=/figure/FFs.png width="400" height="400" alt="Force field is consisted of bonded and non-bonded interactions.">
+</p>
 
 
 - Periodic Boundary Conditions (PBC)
 In MD simulation, systems are treated as if they were surrounded by their identical copies in all directions.
-
-<img src="/figure/pbc.png" width="200" height="100">
-
-![alt text](/figure/pbc.png "Periodic Boundary Conditions")
+<p align="center">
+<img src="/figure/pbc_1.png" width="500" height="500" alt="If particle A leaves the original box to the right, its corresponding periodic image re-enters through the opposite face.">
+</p>
 
 - Ensembles
     - Microcanonical Ensemble (NVE)
