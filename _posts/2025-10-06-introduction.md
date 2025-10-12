@@ -20,18 +20,15 @@ The energy of a system is a function of the positions of all atoms in the system
 
 $$ F_i = - \frac{\partial E}{\partial r_i} $$
 
-where \( F_i \) is the force acting on atom \( i \), \( E \) is the total energy of the system, and \( r_i \) is the position of atom \( i \).
+where $$ F_i $$ is the force acting on atom $$  i $$ , $$  E $$  is the total energy of the system, and $$  r_i $$ is the position of atom $$  i $$ .
 The level of theory used to calculate the energy and forces determines the accuracy and computational cost of the simulation.
 There are two main approaches to calculate the energy and forces: Molecular Mechanics (MM) and Quantum Mechanics (QM).
 
-Difference of Quantum Mechanics (QM) and Molecular Mechanics (MM):
+Difference of Quantum Mechanics (QM) and Molecular Mechanics (MM)
 
 | Quantum Mechanics (QM) | Molecular Mechanics (MM)("Force Fields") |
-|:--:|:--:|
-|  Based on numerical solutions
-of Schrödinger's equation to model
-the electron density of the system: | Based on parametrised potential
-functions: |
+| ----------- | ----------- |
+|  Based on numerical solutions of Schrödinger's equation to model the electron density of the system: | Based on parametrised potential functions: |
 |$$ \hat{H} \Psi = E \Psi $ | $$ E_{total} = E_{bonded} + E_{non-bonded} $$ |
 |  Accurate but computationally expensive (inclusion of - polarisation, charge-transfer effects, many body effects) | fast computationally (needs parameterisation) |
 
