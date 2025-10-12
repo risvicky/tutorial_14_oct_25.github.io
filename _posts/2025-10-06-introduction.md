@@ -16,8 +16,8 @@ The main goal of computer-aided methods in chemistry and material design is to o
 
 ##### Molecular Dynamics (MD) Simulations
 Description of the time evolution of chemical systems by propagation the Newton's equations of motion. 
-![MD simulation workflow](/figure/loop.png){: width="400" height="400" .left}
-![Integration of Newton's equations of motion](/figure/integration.png){: width="400" height="400" .right}
+![MD simulation workflow](/figure/loop.png){: width="500" height="auto" .center}
+![Integration of Newton's equations of motion](/figure/integration.png){: width="400" height="auto" .center}
 
 #### Energy and Forces
 Difference of Molecular Mechanics and Quantum Mechanics
@@ -33,7 +33,7 @@ Difference of Molecular Mechanics and Quantum Mechanics
 
 #### Periodic Boundary Conditions (PBC)
 In MD simulation, systems are treated as if they were surrounded by their identical copies in all directions.
-![Periodic Boundary Condition](/figure/pbc_1.png)
+![Periodic Boundary Condition](/figure/pbc_1.png){: width="500" height="auto" .center}
 
 
 If particle A leaves the original box to the right, its corresponding periodic image re-enters through the opposite face.
