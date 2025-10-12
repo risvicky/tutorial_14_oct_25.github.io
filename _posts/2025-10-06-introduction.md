@@ -16,26 +16,26 @@ The main goal of computer-aided methods in chemistry and material design is to o
 
 ##### Molecular Dynamics (MD) Simulations
 Description of the time evolution of chemical systems by propagation the Newton's equations of motion. 
+![alt text](/figure/loop.png "MD loop")
+![alt text](/figure/integration.png "MD loop")
 
 - Energy and Forces
     - Difference of Molecular Mechanics and Quantum Mechanics
 
 - Bonded and Non-bonded Interactions
 
+
+
 - Force Fields
+![alt text](/figure/FFs.png "Force Fields")
 
-- Equations of Motion
 
-- Molecular Dynamics Loop
-
-- Velocity Verlet Algorithm
-![alt text](/figure/velocity-verlet-integrator.png "Velocity Verlet Algorithm")
-
-- Timestep
-
-- Long-range forces
 
 - Periodic Boundary Conditions (PBC)
+In MD simulation, systems are treated as if they were surrounded by their identical copies in all directions.
+
+<img src="/figure/pbc.png" width="200" height="100">
+
 ![alt text](/figure/pbc.png "Periodic Boundary Conditions")
 
 - Ensembles
