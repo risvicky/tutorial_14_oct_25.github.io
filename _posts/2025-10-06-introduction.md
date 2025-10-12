@@ -16,7 +16,7 @@ The main goal of computer-aided methods in chemistry and material design is to o
 
 ##### Molecular Dynamics (MD) Simulations
 Description of the time evolution of chemical systems by propagation the Newton's equations of motion. 
-![MD simulation workflow|400x400,50%](/figure/loop.png) 
+![MD simulation workflow|400x400,50x](/figure/loop.png) 
 ![Integration of Newton's equations of motion|400x400,50%](/figure/integration.png)
 
 #### Energy and Forces
@@ -40,9 +40,11 @@ If particle A leaves the original box to the right, its corresponding periodic i
 
 
 #### Ensembles
-    - Microcanonical Ensemble (NVE)
-    - Canonical Ensemble (NVT)
-    - Isothermal-Isobaric Ensemble (NPT)
+Microcanonical Ensemble (NVE)
+
+Canonical Ensemble (NVT)
+
+Isothermal-Isobaric Ensemble (NPT)
 
 #### Radial Distribution Function (RDF)
 
