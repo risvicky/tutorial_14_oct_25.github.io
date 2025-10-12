@@ -29,7 +29,7 @@ Difference of Quantum Mechanics (QM) and Molecular Mechanics (MM)
 | Quantum Mechanics (QM) | Molecular Mechanics (MM)("Force Fields") |
 | ----------- | ----------- |
 |  Based on numerical solutions of Schrödinger's equation to model the electron density of the system: | Based on parametrised potential functions: |
-|$$ \hat{H} \Psi = E \Psi $ | $$ E_{total} = E_{bonded} + E_{non-bonded} $$ |
+|$$ \hat{H} \Psi = E \Psi $$ | $$ E_{total} = E_{bonded} + E_{non-bonded} $$ |
 |  Accurate but computationally expensive (inclusion of - polarisation, charge-transfer effects, many body effects) | fast computationally (needs parameterisation) |
 
 
