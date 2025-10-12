@@ -29,14 +29,14 @@ Description of the time evolution of chemical systems by propagation the Newton'
 - Molecular Dynamics Loop
 
 - Velocity Verlet Algorithm
-![alt text](./../figure/velocity-verlet-integrator.png "Velocity Verlet Algorithm")
+![alt text](/figure/velocity-verlet-integrator.png "Velocity Verlet Algorithm")
 
 - Timestep
 
 - Long-range forces
 
 - Periodic Boundary Conditions (PBC)
-![alt text](./../figure/pbc.png "Periodic Boundary Conditions")
+![alt text](/figure/pbc.png "Periodic Boundary Conditions")
 
 - Ensembles
     - Microcanonical Ensemble (NVE)
