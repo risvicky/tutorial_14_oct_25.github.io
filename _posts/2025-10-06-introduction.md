@@ -16,13 +16,15 @@ The main goal of computer-aided methods in chemistry and material design is to o
 
 ##### Molecular Dynamics (MD) Simulations
 Description of the time evolution of chemical systems by propagation the Newton's equations of motion. 
+<p align="center">
 <img src=/figure/loop.png width="400" height="400">
 <img src=/figure/integration.png width="400" height="400">
+</p>
 
 
 
 #### Energy and Forces
-    - Difference of Molecular Mechanics and Quantum Mechanics
+Difference of Molecular Mechanics and Quantum Mechanics
 
 #### Bonded and Non-bonded Interactions
 
