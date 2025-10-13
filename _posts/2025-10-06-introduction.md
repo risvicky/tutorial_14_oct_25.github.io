@@ -73,8 +73,7 @@ Description of the time evolution of chemical systems by propagation the Newton'
 In MD simulation, systems are treated as if they were surrounded by their identical copies in all directions.
 ![Periodic Boundary Condition](/figure/pbc_1.png){: width="500" height="auto" .center}
 
-
-A representation of a three-dimensional periodic system. The simulation box is represented by a cubic box of length *L*. The cubic box is surrounded by its identical copies. **A** particle, marked in green within the central box, can exit the box through the surface of the box. Upon leaving, its periodic image will reappear, entering from the opposite side.
+The figure depicts representation of a three-dimensional periodic system. The simulation box is represented by a cubic box of length *L*. The cubic box is surrounded by its identical copies. **A** particle, marked in green within the central box, can exit the box through the surface of the box. Upon leaving, its periodic image will reappear, entering from the opposite side.
 
 This approach also considers the **minimum image convention**, which means that each particle only interacts with the nearest image of every other particle (either the original particle or one of its periodic images).
 
