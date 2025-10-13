@@ -101,3 +101,4 @@ The RDF depicted in the figure above represents the probablity to find a solvent
 
 ![RDF](/figure/h2o_rdf.png){: width="400" height="auto" .center}
 
+The figure above shows RDFs of O-O, O-H, and H-H pairs in pure water.
