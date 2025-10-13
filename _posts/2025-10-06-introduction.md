@@ -49,13 +49,13 @@ MM estimates the potential energy of the system by ignoring the electronic motio
 
 It models atoms as *spheres* and bonds as *springs*, and the potential energy of the system is calculated based on the **bond stretching**, **angle bending**, **dihedral angle** interaction, and **non-bonded** contributions between the atoms in the system. 
 
-**Hooke’s law** (https://en.wikipedia.org/wiki/Hooke%27s_law) is typically used to define bond stretching and angle bending. The typical form of FFs (i.e., functional form) to describe the intra- and intermolecular potential energy function of a collection of atoms in the system can be expressed as:
+[Hooke’s law](https://en.wikipedia.org/wiki/Hooke%27s_law) is typically used to define bond stretching and angle bending. The typical form of FFs (i.e., functional form) to describe the intra- and intermolecular potential energy function of a collection of atoms in the system can be expressed as:
 
 ![Force Field](/figure/FFs.png)
 
 where the first four terms represent the bonded interactions (bond stretching, angle bending, dihedral angle torsion, and improper dihedral angle torsion), and the last two terms represent the non-bonded interactions (van der Waals and electrostatic interactions).
 
-The well-known **Lennard-Jones** (https://en.wikipedia.org/wiki/Lennard-Jones_potential) potential energy function is employed to describe the van der Waals interaction between two atoms in the system which is given by:
+The well-known [Lennard-Jones](https://en.wikipedia.org/wiki/Lennard-Jones_potential) potential energy function is employed to describe the van der Waals interaction between two atoms in the system which is given by:
 
 $$ E_{LJ} = 4 \epsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^{6} \right] $$
 
@@ -98,4 +98,6 @@ It provides information about the structure of liquids and amorphous solids by d
 ![RDF](/figure/GC.png){: width="auto" height="auto" .center}
 
 The RDF depicted in the figure above represents the probablity to find a solvent molecule *j* at a spesific distance *r* from a central solute molecule *i*. 
+
+![RDF](/figure/h2o_rdf.png){: width="400" height="auto" .center}
 
