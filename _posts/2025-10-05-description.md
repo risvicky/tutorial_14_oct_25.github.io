@@ -15,5 +15,5 @@ Location: TG213, Thomas Graham Building, University of Strathclyde
 By the end of this tutorial, you will be able to:
 - Understand the fundamental concepts of molecular dynamics simulations
 - Set up and run a basic molecular dynamics simulation using GROMACS
-- Analyze and visualize simulation results: radial distribution function (RDF)
+- Analyse and visualise simulation results: radial distribution function (RDF)
 - Understand the workflow of a typical molecular dynamics simulation

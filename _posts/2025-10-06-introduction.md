@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Molecular Dynamics Simulations with GROMACS"
+title: "Introduction to Molecular Dynamics Simulations"
 date: 2025-10-06
 author: "Risnita Vicky Listyarini"
 ---
@@ -15,13 +15,13 @@ The main goal of computer-aided methods in chemistry and material design is to o
 - Ability to simulate conditions that are difficult to achieve experimentally
 
 #### Energy and Forces
-When we perform a simulation of a chemical system, we are interested in the energy and forces acting on the atoms. The energy of a system is a function of the positions of all atoms in the system. 
+When we perform a simulation of a chemical system, we are interested in the **energy** and **forces** acting on the atoms. The energy of a system is a function of the positions of all atoms in the system. 
 
 The forces acting on each atom are related to the energy by the following equation:
 
 $$ F_i = - \frac{\partial E}{\partial r_i} $$
 
-where $$ F_i $$ is the force acting on atom $$  i $$ , $$  E $$  is the total energy of the system, and $$  r_i $$ is the position of atom $$  i $$.
+where $$ F_i $$ is the force acting on atom $$ i $$ , $$ E $$ is the total energy of the system, and $$ r_i $$ is the position of atom $$ i $$.
 
 The level of theory used to calculate the energy and forces determines the accuracy and computational cost of the simulation.
 
@@ -40,22 +40,22 @@ There are two main approaches to calculate the energy and forces: Molecular Mech
 Synonyms: 
 - molecular mechanics (MM)
 - empirical potentials, potential model
-- classical approach, classical treatment, etc.
-- but not: Molecular Modelling !
+- classical approach, classical treatment
+- but not: *Molecular Modelling*!
 
 The main idea of MM is to describe molecular interactions via empirical, parametrised potential function.
 
 MM estimates the potential energy of the system by ignoring the electronic motion and considering the positions of nuclei. 
 
-It models atoms as spheres and bonds as springs, and the potential energy of the system is calculated based on the bond stretching, angle bending, dihedral angle interaction, and non-bonded contributions between the atoms in the system. 
+It models atoms as *spheres* and bonds as *springs*, and the potential energy of the system is calculated based on the **bond stretching**, **angle bending**, **dihedral angle** interaction, and **non-bonded** contributions between the atoms in the system. 
 
-Hooke’s law is typically used to define bond stretching and angle bending. The typical form of FFs (i.e., functional form) to describe the intra- and intermolecular potential energy function of a collection of atoms in the system can be expressed as:
+[**Hooke’s law**](https://en.wikipedia.org/wiki/Hooke%27s_law) is typically used to define bond stretching and angle bending. The typical form of FFs (i.e., functional form) to describe the intra- and intermolecular potential energy function of a collection of atoms in the system can be expressed as:
 
 ![Force Field](/figure/FFs.png)
 
 where the first four terms represent the bonded interactions (bond stretching, angle bending, dihedral angle torsion, and improper dihedral angle torsion), and the last two terms represent the non-bonded interactions (van der Waals and electrostatic interactions).
 
-The well-known Lennard-Jones potential energy function is employed to describe the van der Waals interaction between two atoms in the system which is given by:
+The well-known [**Lennard-Jones**] (https://en.wikipedia.org/wiki/Lennard-Jones_potential) potential energy function is employed to describe the van der Waals interaction between two atoms in the system which is given by:
 
 $$ E_{LJ} = 4 \epsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^{6} \right] $$
 
@@ -85,11 +85,17 @@ The idea of using thermostats in MD simulation can be for several reasons, e.g.,
 
 Different types of ensembles can describe the system in molecular dynamics, including the microcanonical, canonical, and isothermal-isobaric ensembles.
 
-Microcanonical Ensemble (NVE) describes a system where the number of particles, volume, and energy are constant, representing an isolated system without the exchange of particles or energy with its surroundings.
+**Microcanonical Ensemble (NVE)** describes a system where the number of particles, volume, and energy are constant, representing an isolated system without the exchange of particles or energy with its surroundings.
 
-Canonical Ensemble (NVT) applies to a system maintaining constant numbers of particles, volume, and temperature. It acts as a closed system in thermal equilibrium with a heat bath at a constant temperature *T*, allowing for energy exchange.
+**Canonical Ensemble (NVT)** applies to a system maintaining constant numbers of particles, volume, and temperature. It acts as a closed system in thermal equilibrium with a heat bath at a constant temperature *T*, allowing for energy exchange.
 
-Isothermal-Isobaric Ensemble (NPT) defines a system with a constant number of particles, pressure and temperature. It depicts the system in contact with a heat bath at constant temperature *T* and pressure *P*, capable of exchanging energy and volume with the system. At thermal equilibrium, the total energy *E* and volume *V* fluctuate, whereas the number of particles *N* remains constant.
+**Isothermal-Isobaric Ensemble (NPT)** defines a system with a constant number of particles, pressure and temperature. It depicts the system in contact with a heat bath at constant temperature *T* and pressure *P*, capable of exchanging energy and volume with the system. At thermal equilibrium, the total energy *E* and volume *V* fluctuate, whereas the number of particles *N* remains constant.
 
-#### Radial Distribution Function (RDF)
+#### Radial Distribution Function (RDF)/Pair Distribution
+The radial distribution function, g(r), describes the number of atoms in a shell $$ \Delta r $$ at a distance *r* from a central species/atom.
+It provides information about the structure of liquids and amorphous solids by describing how particle density varies as a function of distance from a reference particle.
+
+![RDF](/figure/GC.png){: width="auto" height="auto" .center}
+
+The RDF depicted in the figure above represents the probablity to find a solvent molecule *j* at a spesific distance *r* from a central solute molecule *i*. 
 
