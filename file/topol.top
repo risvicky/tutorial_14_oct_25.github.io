@@ -1,0 +1,12 @@
+#include "ff/forcefield.itp"
+#include "ff/h2o.itp"
+#include "ff/na.itp"
+#include "ff/no3.itp"
+
+[ System ]
+NaNO3 solution
+
+[ Molecules ]
+NO3 ..fill the blank..
+Na ..fill the blank..
+SOL ..fill the blank..
