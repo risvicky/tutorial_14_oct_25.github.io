@@ -51,7 +51,9 @@ It models atoms as *spheres* and bonds as *springs*, and the potential energy of
 
 [Hooke’s law](https://en.wikipedia.org/wiki/Hooke%27s_law) is typically used to define bond stretching and angle bending. The typical form of FFs (i.e., functional form) to describe the intra- and intermolecular potential energy function of a collection of atoms in the system can be expressed as:
 
-![Force Field](/figure/FFs.png)
+<p align="center">
+  <img src="{{ '/figure/FFs.png' | relative_url }}" alt="Force Field" width="auto">
+</p>
 
 where the first four terms represent the bonded interactions (bond stretching, angle bending, dihedral angle torsion, and improper dihedral angle torsion), and the last two terms represent the non-bonded interactions (van der Waals and electrostatic interactions).
 
@@ -64,14 +66,19 @@ where $$  r $$ is the distance between two atoms, $$  \epsilon $$ is the depth o
 
 ##### Molecular Dynamics (MD) Simulations
 Description of the time evolution of chemical systems by propagation the Newton's equations of motion. 
-![MD simulation workflow](/figure/loop.png){: width="600" height="auto" .center}
-![Integration of Newton's equations of motion](/figure/integration.png){: width="300" height="auto" .center}
+<p align="center">
+  <img src="{{ '/figure/loop.png' | relative_url }}" alt="MD simulation workflow" width="600">
+</p>
 
-
+<p align="center">
+  <img src="{{ '/figure/integration.png' | relative_url }}" alt="Integration of Newton's equations of motion" width="300">
+</p>
 
 #### Periodic Boundary Conditions (PBC)
 In MD simulation, systems are treated as if they were surrounded by their identical copies in all directions.
-![Periodic Boundary Condition](/figure/pbc_1.png){: width="500" height="auto" .center}
+<p align="center">
+  <img src="{{ '/figure/pbc_1.png' | relative_url }}" alt="Periodic Boundary Condition" width="500">
+</p>
 
 The figure depicts representation of a three-dimensional periodic system. The simulation box is represented by a cubic box of length *L*. The cubic box is surrounded by its identical copies. **A** particle, marked in green within the central box, can exit the box through the surface of the box. Upon leaving, its periodic image will reappear, entering from the opposite side.
 
@@ -94,10 +101,14 @@ Different types of ensembles can describe the system in molecular dynamics, incl
 The radial distribution function, g(r), describes the number of atoms in a shell $$ \Delta r $$ at a distance *r* from a central species/atom.
 It provides information about the structure of liquids and amorphous solids by describing how particle density varies as a function of distance from a reference particle.
 
-![RDF](/figure/GC.png){: width="auto" height="auto" .center}
+<p align="center">
+  <img src="{{ '/figure/GC.png' | relative_url }}" alt="RDF" width="auto">
+</p>
 
 The RDF depicted in the figure above represents the probablity to find a solvent molecule *j* at a spesific distance *r* from a central solute molecule *i*. 
 
-![RDF](/figure/h2o_rdf.png){: width="400" height="auto" .center}
+<p align="center">
+  <img src="{{ '/figure/h2o_rdf.png' | relative_url }}" alt="RDF_h2o" width="auto">
+</p>
 
 The figure above shows RDFs of O-O, O-H, and H-H pairs in pure water.
