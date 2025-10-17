@@ -6,7 +6,7 @@ Session: Tuesday, 14th of October 2024, 14:30 - 16:00
 Location: TG213, Thomas Graham Building, University of Strathclyde
 
 ## Prerequisites
-- Basic knowledge of Linux command line
+- Basic knowledge of [Linux command line](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)
 - GROMACS installed on your machine or access to ARCHIE-WeSt HPC
 - Visualization software (e.g., VMD, PyMOL) installed or access to visualization tools on ARCHIE-WeSt
 - Basic understanding of molecular dynamics concepts
