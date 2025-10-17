@@ -85,7 +85,7 @@ The figure depicts representation of a three-dimensional periodic system. The si
 This approach also considers the **minimum image convention**, which means that each particle only interacts with the nearest image of every other particle (either the original particle or one of its periodic images).
 
 #### Temperature and Pressure Scaling
-Molecular dynamics simulations can be carried out using several conditions or ensembles. It requires the use of algorithms that generate a thermodynamic ensemble at constant temperatures known as **thermostats**[2](https://www.eng.uc.edu/~beaucag/Classes/AdvancedMaterialsThermodynamics/Books/%5BComputational%20science%20(San%20Diego,%20Calif.)%5D%20Daan%20Frenkel_%20Berend%20Smit%20-%20Understanding%20molecular%20simulation%20_%20from%20algorithms%20to%20applications%20(2002,%20Academic%20Press%20)%20-%20libgen.lc.pdf)
+Molecular dynamics simulations can be carried out using several conditions or ensembles. It requires the use of algorithms that generate a thermodynamic ensemble at constant temperatures known as **thermostats**[[2]](https://www.eng.uc.edu/~beaucag/Classes/AdvancedMaterialsThermodynamics/Books/%5BComputational%20science%20(San%20Diego,%20Calif.)%5D%20Daan%20Frenkel_%20Berend%20Smit%20-%20Understanding%20molecular%20simulation%20_%20from%20algorithms%20to%20applications%20(2002,%20Academic%20Press%20)%20-%20libgen.lc.pdf)
 
 The idea of using thermostats in MD simulation can be for several reasons, e.g., to match with experimental conditions, to make a conformational search faster, or to investigate temperature-dependent processes.
 
@@ -100,7 +100,7 @@ Different types of ensembles can describe the system in molecular dynamics, incl
 #### Radial Distribution Function (RDF)/Pair Distribution
 The radial distribution function, g(r), describes the number of atoms in a shell $$ \Delta r $$ at a distance *r* from a central species/atom. 
 
-The simplest RDF criterion is based on the cutoff or distance criterion.[3](https://pubs.acs.org/doi/full/10.1021/acs.jctc.4c00162)
+The simplest RDF criterion is based on the cutoff or distance criterion.[[3]](https://pubs.acs.org/doi/full/10.1021/acs.jctc.4c00162)
 
 It provides information about the structure of liquids and amorphous solids by describing how particle density varies as a function of distance from a reference particle. 
 
@@ -114,7 +114,7 @@ The RDF depicted in the figure above represents the probablity to find a solvent
   <img src="{{ '/figure/h2o_rdf.png' | relative_url }}" alt="RDF_h2o" width="auto">
 </p>
 
-The figure above shows RDFs of O-O, O-H, and H-H pairs in pure water.[3](https://pubs.acs.org/doi/full/10.1021/acs.jctc.4c00162)
+The figure above shows RDFs of O-O, O-H, and H-H pairs in pure water.[[3]](https://pubs.acs.org/doi/full/10.1021/acs.jctc.4c00162)
 
 **References**
 
@@ -122,4 +122,4 @@ The figure above shows RDFs of O-O, O-H, and H-H pairs in pure water.[3](https:/
 
 2. Frenkel, D., & Smit, B. (2002). *Understanding Molecular Simulation: From Algorithms to Applications (2nd ed.)*. Academic Press [Chapter 4 for MD](https://www.eng.uc.edu/~beaucag/Classes/AdvancedMaterialsThermodynamics/Books/%5BComputational%20science%20(San%20Diego,%20Calif.)%5D%20Daan%20Frenkel_%20Berend%20Smit%20-%20Understanding%20molecular%20simulation%20_%20from%20algorithms%20to%20applications%20(2002,%20Academic%20Press%20)%20-%20libgen.lc.pdf)
 
-3. Risnita Vicky Listyarini, Bernhard M. Kriesche, and Thomas S. Hofer, *Journal of Chemical Theory and Computation* 2024 20 (8), 3028-3045 DOI: [10.1021/acs.jctc.4c00162](https://pubs.acs.org/doi/full/10.1021/acs.jctc.4c00162)
+3. Listyarini, R.V., Kriesche, B.M., and Hofer, T.S., *Journal of Chemical Theory and Computation* 2024 20 (8), 3028-3045 DOI: [10.1021/acs.jctc.4c00162](https://pubs.acs.org/doi/full/10.1021/acs.jctc.4c00162)
