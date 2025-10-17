@@ -115,5 +115,6 @@ The figure above shows RDFs of O-O, O-H, and H-H pairs in pure water.
 
 References:
 
-[1] Allen, M. P., & Tildesley, D. J. (2017). *Computer Simulation of Liquids (2nd ed.)*. Oxford University Press [(Chapter 1 & 3 for MD)](https://levich.ccny.cuny.edu/koplik/molecular_simulation/AT2.pdf)
-[2] Frenkel, D., & Smit, B. (2002). *Understanding Molecular Simulation: From Algorithms to Applications (2nd ed.)*. Academic Press [Chapter 4 for MD](https://www.eng.uc.edu/~beaucag/Classes/AdvancedMaterialsThermodynamics/Books/%5BComputational%20science%20(San%20Diego,%20Calif.)%5D%20Daan%20Frenkel_%20Berend%20Smit%20-%20Understanding%20molecular%20simulation%20_%20from%20algorithms%20to%20applications%20(2002,%20Academic%20Press%20)%20-%20libgen.lc.pdf)
+1. Allen, M. P., & Tildesley, D. J. (2017). *Computer Simulation of Liquids (2nd ed.)*. Oxford University Press [(Chapter 1 & 3 for MD)](https://levich.ccny.cuny.edu/koplik/molecular_simulation/AT2.pdf)
+
+2. Frenkel, D., & Smit, B. (2002). *Understanding Molecular Simulation: From Algorithms to Applications (2nd ed.)*. Academic Press [Chapter 4 for MD](https://www.eng.uc.edu/~beaucag/Classes/AdvancedMaterialsThermodynamics/Books/%5BComputational%20science%20(San%20Diego,%20Calif.)%5D%20Daan%20Frenkel_%20Berend%20Smit%20-%20Understanding%20molecular%20simulation%20_%20from%20algorithms%20to%20applications%20(2002,%20Academic%20Press%20)%20-%20libgen.lc.pdf)
