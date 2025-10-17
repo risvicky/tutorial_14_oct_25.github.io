@@ -113,7 +113,7 @@ The RDF depicted in the figure above represents the probablity to find a solvent
 
 The figure above shows RDFs of O-O, O-H, and H-H pairs in pure water.
 
-References:
+**References**
 
 1. Allen, M. P., & Tildesley, D. J. (2017). *Computer Simulation of Liquids (2nd ed.)*. Oxford University Press [(Chapter 1 & 3 for MD)](https://levich.ccny.cuny.edu/koplik/molecular_simulation/AT2.pdf)
 
