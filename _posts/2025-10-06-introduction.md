@@ -15,7 +15,7 @@ The main goal of computer-aided methods in chemistry and material design is to o
 - Ability to simulate conditions that are difficult to achieve experimentally
 
 #### Energy and Forces
-When we perform a simulation of a chemical system, we are interested in the **energy** and **forces** acting on the atoms. The energy of a system is a function of the positions of all atoms in the system. 
+When we perform a simulation of a chemical system, we are interested in the **energy** and **forces** acting on the atoms. The energy of a system is a function of the positions of all atoms in the system.[1]
 
 The forces acting on each atom are related to the energy by the following equation:
 
@@ -85,7 +85,7 @@ The figure depicts representation of a three-dimensional periodic system. The si
 This approach also considers the **minimum image convention**, which means that each particle only interacts with the nearest image of every other particle (either the original particle or one of its periodic images).
 
 #### Temperature and Pressure Scaling
-Molecular dynamics simulations can be carried out using several conditions or ensembles. It requires the use of algorithms that generate a thermodynamic ensemble at constant temperatures known as **thermostats**.
+Molecular dynamics simulations can be carried out using several conditions or ensembles. It requires the use of algorithms that generate a thermodynamic ensemble at constant temperatures known as **thermostats**[2]
 
 The idea of using thermostats in MD simulation can be for several reasons, e.g., to match with experimental conditions, to make a conformational search faster, or to investigate temperature-dependent processes.
 
@@ -112,3 +112,8 @@ The RDF depicted in the figure above represents the probablity to find a solvent
 </p>
 
 The figure above shows RDFs of O-O, O-H, and H-H pairs in pure water.
+
+References:
+
+[1] Allen, M. P., & Tildesley, D. J. (2017). *Computer Simulation of Liquids (2nd ed.)*. Oxford University Press [(Chapter 1 & 3 for MD)](https://levich.ccny.cuny.edu/koplik/molecular_simulation/AT2.pdf)
+[2] Frenkel, D., & Smit, B. (2002). *Understanding Molecular Simulation: From Algorithms to Applications (2nd ed.)*. Academic Press [Chapter 4 for MD](https://www.eng.uc.edu/~beaucag/Classes/AdvancedMaterialsThermodynamics/Books/%5BComputational%20science%20(San%20Diego,%20Calif.)%5D%20Daan%20Frenkel_%20Berend%20Smit%20-%20Understanding%20molecular%20simulation%20_%20from%20algorithms%20to%20applications%20(2002,%20Academic%20Press%20)%20-%20libgen.lc.pdf)
